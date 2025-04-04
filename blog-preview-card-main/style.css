@@ -1,0 +1,106 @@
+
+body{
+    background-color: rgb(244, 208, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 24px;
+    gap: 20px;
+}
+.card__image{
+    border-radius: 10px;
+}
+.card__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.card__author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header{
+    background-color: rgb(244, 208, 78);
+    padding: 4px 12px;
+    border-radius: 4px;
+    width: 82px;
+    height: 29px; 
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    font-family: 'Figtree', sans-serif;
+    color: rgb(17, 17, 17);
+    font-weight: 800;
+    font-size: 16px;
+}
+.p1{
+    font-family: 'Figtree', sans-serif;
+    color: rgb(17, 17, 17);
+    font-weight: 500;
+}
+.second-header{
+    font-family: 'Figtree', sans-serif;
+    color: rgb(17, 17, 17);
+    font-weight: 800;
+    font-size: 24px;
+    
+}
+.description-line{
+    font-family: 'Figtree', sans-serif;
+    color: rgb(107, 107, 107);
+    font-weight: 500;
+    font-size: 16px;    
+
+
+}
+
+
+
+
+
+/* style.css */
+
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype'); /* Adjust the path if needed */
+    font-weight: 100 900; /* Define the range of weights supported by the variable font */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-ExtraBold.ttf') format('truetype');
+    font-weight: 800; /* Extra Bold weight */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+}
+
